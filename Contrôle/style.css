@@ -14,11 +14,10 @@ h2{
 
 p{
 	background-color: seashell;
-}
-
-p:first-line {
 	margin: 16px;
 }
+
+
 
 p.surligne{
 	background-color: seashell;
@@ -75,9 +74,11 @@ ul li ol li ol li ol li {
 nav {
 	text-align: center;
 	font-size: 24pt;
-	font-family: serif;
-	float: ;
-	height: 100px;
-
-
+	font-style: italic;
+	width: 100%;
+	border: 3px solid black;
+	margin: 24px;
+	background-color: seashell;
 }
+
+
