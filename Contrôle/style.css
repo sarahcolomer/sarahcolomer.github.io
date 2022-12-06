@@ -1,0 +1,83 @@
+body{
+	background-image: url("img/cement.jpg");
+	text-align: justify;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	color: blue;
+	background-color: grey;
+}
+
+p{
+	background-color: seashell;
+}
+
+p:first-line {
+	margin: 16px;
+}
+
+p.surligne{
+	background-color: seashell;
+}
+
+#cadre1{
+	background-color: slateblue;
+}
+
+#cadre2{
+	background-color: slateblue;
+}
+
+div.surligne{
+	background-color: slateblue;
+}
+
+span.surligne{
+	background-color: yellow;
+}
+
+ol li{
+	list-style-type: upper-roman;
+}
+
+ol li ol li{
+	list-style-type: lower-latin;
+}
+
+ol li ol li ol li{
+	list-style-type: lower-roman;
+}
+
+ul li{
+	list-style-type: upper-roman;
+}
+
+ul li ol li {
+	list-style-type: lower-latin;
+}
+
+ul li ol li ol li {
+	list-style-type: lower-roman;
+}
+
+ul li ol li ol li ol li {
+	list-style-type: disc;
+}
+
+
+
+
+
+nav {
+	text-align: center;
+	font-size: 24pt;
+	font-family: serif;
+	float: ;
+	height: 100px;
+
+
+}
