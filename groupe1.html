@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<style>
+	body{background-color: mediumpurple;} </style>
+<title>Groupe 1</title>
+</head>
+
+<body>
+	<h1>Liste de choix</h1>
+
+		<h2>Liste déroulante</h2>
+
+<form>
+<select name="Choix" size="1">
+<option>lundi
+<option>mardi
+<option>mercredi
+<option>jeudi
+<option>vendredi
+</select>
+</form>	
+
+
+<br>
+<br>
+
+<form>
+  <div>
+    <input type="checkbox" id="accepterlescookies" name="subscribe" value="newsletter">
+    <label for="subscribeNews">Souhaitez-vous vous abonner à la newsletter ?</label>
+  </div>
+  <div>
+    <button type="submit">S'abonner</button>
+  </div>
+</form>
+<br>
+<br>
+<fieldset>
+  <legend>Veuillez sélectionner vos intérêts :</legend>
+  <div>
+    <input type="checkbox" id="coding" name="interest" value="coding">
+    <label for="coding">Développement</label>
+  </div>
+  <div>
+    <input type="checkbox" id="music" name="interest" value="music">
+    <label for="music">Musique</label>
+  </div>
+</fieldset>
+
+<br><br>
+<h2>Boutons</h2>
+<input class="favorite styled"
+       type="button"
+       value="Follow moi"
+       onclick="window.location.href = 'https://www.instagram.com/hai.aishiteru/'
+       />
+   
+
+<br>
+<br>
+
+<h2>Espace commentaire</h2>
+
+<form method="post"
+ action="ton_script_recup_data_form.php">
+	<p>Pseudo : <input type="text" name="pseudo" value="" /></p>
+	<p>
+		Votre commentaire :<br />
+		<textarea name="commentaire" rows="20" cols="10"></textarea>
+	</p>
+</form>

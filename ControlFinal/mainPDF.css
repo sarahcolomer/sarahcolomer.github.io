@@ -1,0 +1,36 @@
+@media print { 
+	body {
+	font-family: "Serif";
+	font-size: 13pt;
+}
+
+#page {
+	margin: 0 ;
+	border: none;
+}
+
+p.caché{
+	display:none ;
+}
+
+input[type="checkbox"] {
+	display:none ;
+}
+
+input[type="checkbox"]:not(:checked) + label {
+	display:none ;
+}
+
+input[type="checkbox"]:checked + label:before {content:"- "}
+
+}
+
+p.right{
+	text-align: right;
+}
+
+p.left{
+	text-align: left
+}
+
+}
